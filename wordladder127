@@ -8,15 +8,18 @@ wordList = ["hot","dot","dog","lot","log","cog"]
 
 Output: 5
 
-Explanation: As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
-return its length 5.
-
 """
 
 class Solution:
     def ladderLength(self, beginWord, endWord, wordList):
+
+        if endWord not in wordList:
+            return 0
+        if len(beginWord) != len(endWord):
+            return 0
+
         length = 20
         return length
 
 solver = Solution()
-print(solver.ladderLength)
+print(solver.ladderLength('hit','cog',["hot","dot","dog","lot","log","cog"]))
