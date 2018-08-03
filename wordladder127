@@ -15,7 +15,7 @@ return its length 5.
 
 class Solution:
     def ladderLength(self, beginWord, endWord, wordList):
-        length = 50
+        length = 20
         return length
 
 solver = Solution()
