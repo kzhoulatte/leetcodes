@@ -1,0 +1,22 @@
+# Leet127: Word ladder
+"""
+Example:
+Input:
+beginWord = "hit",
+endWord = "cog",
+wordList = ["hot","dot","dog","lot","log","cog"]
+
+Output: 5
+
+Explanation: As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
+return its length 5.
+
+"""
+
+class Solution:
+    def ladderLength(self, beginWord, endWord, wordList):
+        length = 50
+        return length
+
+solver = Solution()
+print(solver.ladderLength)
